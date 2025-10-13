@@ -1,0 +1,58 @@
+nav{
+    border: solid 5px #225371;
+    background-color: #225371;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+nav img{
+    height: 70px;
+    padding: 10px;
+}
+
+form{
+    position: absolute;
+    top: 115px;
+    width: 95%;
+    height: 82vh;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line1{
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line1 input{
+    margin-left: 10px;
+}
+
+.line1 select{
+    margin-left: 10px;
+}
+
+.line2{
+    width: 200px;
+}
+
+.line3{
+    width: 200px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
