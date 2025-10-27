@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+nav{
+    border: solid 5px #225371;
+    background-color: #225371;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+nav img{
+    height: 70px;
+    padding: 10px;
+}
+
+main{
+    position: absolute;
+    top: 150px;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carrocel{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.carrocel ::-webkit-scrollbar{
+    display: none;
+}
+
+.apar{
+    border: solid 5px black;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    flex-shrink: 0;
+    
+}
+
+
+.apar img{
+    height: 250px;
+    width: 300px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
