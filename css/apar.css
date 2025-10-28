@@ -31,6 +31,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
 }
 
 
@@ -38,10 +39,7 @@ main{
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-}
 
-.carrocel ::-webkit-scrollbar{
-    display: none;
 }
 
 .apar{
@@ -50,7 +48,7 @@ main{
     width: 500px;
     margin: 50px;
     flex-shrink: 0;
-    
+    background-color: #225371;
 }
 
 
@@ -63,4 +61,15 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.linha{
+    content: "";
+    border: solid 2px black;
+    background-color: black;
+    height: 10px;
+    width:100%;
+    position: relative;
+    top: 500px;
+    
 }
