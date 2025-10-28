@@ -3,6 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
+    width: 100%;
 }
 
 nav{
@@ -39,7 +40,24 @@ main{
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
+}
 
+::-webkit-scrollbar{
+    height: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(178, 178, 178);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+    border: solid 2px black;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(218, 216, 216);
+    border: solid 2px black;
+    border-radius: 12px;
 }
 
 .apar{
@@ -49,12 +67,28 @@ main{
     margin: 50px;
     flex-shrink: 0;
     background-color: #225371;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
 .apar img{
     height: 250px;
     width: 300px;
+}
+
+.apar button{
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+}
+
+.apar a :hover{
+    background-color: rgb(206, 134, 0);
+    border: none;
+    border-radius: 12px;
 }
 
 .img{
