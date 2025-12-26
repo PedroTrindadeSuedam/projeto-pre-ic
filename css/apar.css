@@ -62,6 +62,7 @@ main{
 
 .apar{
     border: solid 5px black;
+    border-radius: 24px;
     height: 500px;
     width: 500px;
     margin: 50px;

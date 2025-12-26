@@ -23,9 +23,25 @@ form{
     height: 82vh;
     margin-left: 2.5%;
     margin-top: 20px;
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+button{
+    margin-top: 20px;
+    font-size: 25px;
+    height: 50px;
+    width: 350px;
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .line1{
