@@ -39,9 +39,23 @@ button{
     border-radius: 12px;
 }
 
+.return{
+    margin-top: 20px;
+    font-size: 25px;
+    height: 50px;
+    width: 180px;
+    background-color: orange;
+    border: none;
+    border-radius: 12px; 
+}
+
 a{
     text-decoration: none;
     color: black;
+}
+
+.bnt :hover{
+    background-color: rgb(206, 134, 0);
 }
 
 .line1{
