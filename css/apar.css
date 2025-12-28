@@ -1,3 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    height: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(178, 178, 178);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+    border: solid 2px black;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(218, 216, 216);
+    border: solid 2px black;
+    border-radius: 12px;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -40,24 +64,7 @@ main{
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar{
-    height: 15px;
-}
-
-::-webkit-scrollbar-track{
-    background: rgb(178, 178, 178);
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 12px;
-    border: solid 2px black;
-}
-
-::-webkit-scrollbar-thumb{
-    background: rgb(218, 216, 216);
-    border: solid 2px black;
-    border-radius: 12px;
+    scrollbar-color: grey rgb(193, 193, 193);
 }
 
 .apar{

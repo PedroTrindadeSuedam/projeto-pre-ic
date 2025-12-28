@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 nav{
     border: solid 5px #225371;
     background-color: #225371;
