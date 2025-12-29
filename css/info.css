@@ -1,0 +1,52 @@
+*,
+* ::before,
+* ::after{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, sans-serif
+}
+
+main{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideBar{
+    border: solid 5px red;
+    width: 15%;
+    height: 98vh;
+}
+
+.txt{
+    border: solid 5px red;
+    width: 40%;
+    height: 98vh;
+}
+
+.midea{
+    border: solid 5px red;
+    width: 30%;
+    height: 98vh;
+}
+
+
+.bnt h2{
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.bnt :hover{
+    background-color: rgb(206, 134, 0);
+    border: none;
+    border-radius: 12px;
+}
