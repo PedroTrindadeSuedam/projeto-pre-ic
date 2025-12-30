@@ -18,6 +18,11 @@ main{
     border: solid 5px red;
     width: 15%;
     height: 98vh;
+    padding: 10px;
+}
+
+.sideBar h2{
+    margin-bottom: 50px;
 }
 
 .txt{
@@ -50,3 +55,8 @@ main{
     border: none;
     border-radius: 12px;
 }
+
+.bnt-ativo{
+    color: red;
+}
+
