@@ -15,10 +15,13 @@ main{
 }
 
 .sideBar{
-    border: solid 5px red;
+    border: solid 5px rgb(217, 217, 217);
     width: 15%;
     height: 98vh;
     padding: 10px;
+    background-color: rgb(217, 217, 217);
+    margin-right: 10px;
+    
 }
 
 .sideBar h2{
@@ -26,15 +29,18 @@ main{
 }
 
 .txt{
-    border: solid 5px red;
+    border: solid 5px rgb(217, 217, 217);
     width: 40%;
     height: 98vh;
+    background-color: rgb(217, 217, 217);
 }
 
 .midea{
-    border: solid 5px red;
+    border: solid 5px rgb(217, 217, 217);
     width: 30%;
     height: 98vh;
+    background-color: rgb(217, 217, 217);
+    margin-left: 10px;
 }
 
 
@@ -56,7 +62,27 @@ main{
     border-radius: 12px;
 }
 
+.bnt1 :active{
+   color: black;
+}
+
+.bnt2 :active{
+   color: black;
+}
+
+.bnt3 :active{
+   color: black;
+}
+
+.bnt4 :active{
+   color: black;
+}
+
+.bnt1 :hover{
+    
+}
+
 .bnt-ativo{
-    color: red;
+    color: black;
 }
 
