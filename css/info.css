@@ -21,7 +21,6 @@ main{
     padding: 10px;
     background-color: rgb(217, 217, 217);
     margin-right: 10px;
-    
 }
 
 .sideBar h2{
@@ -41,6 +40,13 @@ main{
     height: 98vh;
     background-color: rgb(217, 217, 217);
     margin-left: 10px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    scrollbar-color: grey rgb(193, 193, 193);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -86,3 +92,7 @@ main{
     color: black;
 }
 
+.video video{
+    margin-top: 20px;
+    height: 700px;
+}
