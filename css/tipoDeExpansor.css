@@ -42,3 +42,18 @@ main{
     border: none;
     border-radius: 12px;
 }
+
+.bnt h2{
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

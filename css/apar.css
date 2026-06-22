@@ -3,7 +3,7 @@
 *::after {
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Arial, sans-serif
+    font-family: Arial, sans-serif;
 }
 
 ::-webkit-scrollbar{
@@ -22,6 +22,10 @@
     background: rgb(218, 216, 216);
     border: solid 2px black;
     border-radius: 12px;
+}
+
+a{
+    color: black;
 }
 
 body{
@@ -117,3 +121,10 @@ main{
     top: 500px;
     
 }
+
+.link{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
