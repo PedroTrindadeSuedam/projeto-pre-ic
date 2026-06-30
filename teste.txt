@@ -1,0 +1,1 @@
+se esse arquivo apareceu, então o git ta conectado
